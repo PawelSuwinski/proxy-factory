@@ -4,16 +4,17 @@ README
 Generates proxy for a given object dispatching pre and post execute events
 on indicated methods as a way in runtime dynamic class extending.
 
+```
 @package PsuwProxyFactory  
 @copyright Copyright (c) 2019, Paweł Suwiński  
 @author Paweł Suwiński <psuw@wp.pl>  
 @license MIT  
-
+```
 
 Example of usage
 -----------------
 
-Configured global Request::get() validator: 
+Configured global `Request::get()` validator: 
 
 ```
 # config.yml 
