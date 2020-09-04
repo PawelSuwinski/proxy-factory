@@ -1,15 +1,15 @@
 <?php
 /**
- * This file is part of the psProxyFactory package.
+ * This file is part of the PsuwProxyFactory package.
  *
  * @copyright Copyright (c) 2019 Paweł Suwiński
  * @author Paweł Suwiński <psuw@wp.pl>
  * @license MIT
  */
 
-namespace ps\ProxyFactory\Tests;
+namespace Psuw\ProxyFactory\Tests;
 
-use ps\ProxyFactory\EventDispatchingProxyFactory;
+use Psuw\ProxyFactory\EventDispatchingProxyFactory;
 use Symfony\Component\EventDispatcher\Event;
 use Symfony\Component\EventDispatcher\EventDispatcher;
 use Symfony\Component\DependencyInjection\Container;
@@ -21,7 +21,7 @@ use ProxyManager\Factory\AccessInterceptorScopeLocalizerFactory;
  * EventDispatchingProxyFactoryTest
  *
  * @preserveGlobalState disabled
- * @package psProxyFactory
+ * @package PsuwProxyFactory
  * @copyright Copyright (c) 2019, Paweł Suwiński
  * @author Paweł Suwiński <psuw@wp.pl> 
  * @license MIT

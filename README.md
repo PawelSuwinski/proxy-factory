@@ -4,7 +4,7 @@ README
 Generates proxy for a given object dispatching pre and post execute events
 on indicated methods as a way in runtime dynamic class extending.
 
-@package psProxyFactory  
+@package PsuwProxyFactory  
 @copyright Copyright (c) 2019, Paweł Suwiński  
 @author Paweł Suwiński <psuw@wp.pl>  
 @license MIT  
@@ -47,7 +47,7 @@ services:
         shared: false
 
     proxy_factory:
-        class: mm\TerminarzBundle\ProxyFactory\EventDispatchingProxyFactory
+        class: Psuw\ProxyFactory\EventDispatchingProxyFactory
         arguments: ['@event_dispatcher', '@proxy_config']
 
     proxy_config:

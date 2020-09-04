@@ -1,5 +1,5 @@
 {
-    "name": "ps/proxy-factory",
+    "name": "psuw/proxy-factory",
     "description": "Event dispatching proxy factory",
     "type": "library",
     "license": "MIT",
@@ -19,7 +19,7 @@
         "phpunit/phpunit": "^6.5"
     },
     "autoload": {
-        "psr-4": { "ps\\ProxyFactory\\": "" }
+        "psr-4": { "Psuw\\ProxyFactory\\": "" }
     },
     "extra": {
         "branch-alias": {

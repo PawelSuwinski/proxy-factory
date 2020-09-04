@@ -1,13 +1,13 @@
 <?php
 /**
- * This file is part of the psProxyFactory package.
+ * This file is part of the PsuwProxyFactory package.
  *
  * @copyright Copyright (c) 2019 Paweł Suwiński
  * @author Paweł Suwiński <psuw@wp.pl>
  * @license MIT
  */
 
-namespace ps\ProxyFactory;
+namespace Psuw\ProxyFactory;
 
 use Symfony\Component\EventDispatcher\GenericEvent;
 use Symfony\Component\EventDispatcher\EventDispatcherInterface;
@@ -29,7 +29,7 @@ use Laminas\Code\Generator\ParameterGenerator;
  * 
  * @see ProxyManager\Factory\AccessInterceptorValueHolderFactory
  * @see ProxyManager\Factory\AccessInterceptorScopeLocalizerFactory
- * @package psProxyFactory
+ * @package PsuwProxyFactory
  * @copyright Copyright (c) 2019, Paweł Suwiński
  * @author Paweł Suwiński <psuw@wp.pl> 
  * @license MIT
